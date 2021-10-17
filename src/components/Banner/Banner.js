@@ -8,7 +8,7 @@ const Banner = () => {
     return (
         <div className='banner-img'>
             <div className="container ">
-                <div className='search-field'>
+                <div className='text-field'>
                     <div className=''>
                         <div>
                             <h6 className='text-white'>FEEL THE DIFFERENCE WITH US</h6>
