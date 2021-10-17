@@ -1,0 +1,12 @@
+.about-img{
+    background-image: url('https://www.state.gov/wp-content/uploads/2019/04/shutterstock_683522173-2560x852.jpg');
+    height: 600px;
+    width: 100%;
+    background-blend-mode: overlay;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    position: relative;
+    opacity: 0.9;
+    
+}
