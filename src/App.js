@@ -12,6 +12,7 @@ import NotFound from './components/NotFound/NotFound';
 import Header from './components/Header/Header';
 import Login from './components/Login/Login';
 import Footer from './components/Footer/Footer';
+import ServiceDetails from './components/ServiceDetails/ServiceDetails';
 
 function App() {
   return (
@@ -36,6 +37,9 @@ function App() {
           </Route>
           <Route path='/login'>
             <Login></Login>
+          </Route>
+          <Route exact path='/servicedetails/:serviceId'>
+            <ServiceDetails></ServiceDetails>
           </Route>
           <Route path='*'>
             <NotFound></NotFound>
