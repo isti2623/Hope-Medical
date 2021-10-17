@@ -1,0 +1,38 @@
+[
+    {
+        "id": 101,
+        "image": "https://i.ibb.co/fxjZyZg/Psychiatry.jpg",
+        "title": "Psychiatry",
+        "desc": "Psychiatry is an area of medicine involving the study, diagnosis and treatment of mental health disorders. A person's mental health is influenced by a combination of factors that are both specific to an individual as well as related to interactions with society, community, and family. There are several components to mental well being including a healthy self esteem, communication skills and the development of resilience .Mental health problems should not be perceived as mere weaknesses that a person can simply overcome, as they can be highly problematic and disabling conditions and affect a large proportion of the population worldwide. Mental health issues need to be addressed and treated before they cause severe disruption to families, relationships and communities.A psychiatrist is a physician who deals with the diagnosis, treatment, management and prevention of mental health and emotional problems. The psychiatrist completes four years of mandatory medical school training before specializing in the field of psychiatry."
+    },
+    {
+        "id": 102,
+        "image": "https://i.ibb.co/3FqBjx1/opthalmology.jpg",
+        "title": "opthalmology",
+        "desc": "An ophthalmologist is a medical or osteopathic doctor. Ophthalmologists differ from optometrists and opticians in their levels of training and in what they can diagnose and treat.When it's time to get your eyes checked, make sure you are seeing the right eye care professional for your needs. Each member of the eye care team plays an important role in providing eye care, but many people confuse the different providers and their roles in maintaining your eye health. The levels of training and expertise—and what they are allowed to do for you—are the major difference between the types of eye care provider."
+    },
+    {
+        "id": 103,
+        "image": "https://i.ibb.co/K0VtFL2/Immumnology.jpg",
+        "title": "Immumnology",
+        "desc": "The immune system refers to a collection of cells and proteins that function to protect the skin, respiratory passages, intestinal tract and other areas from foreign antigens, such as microbes (organisms such as bacteria, fungi, and parasites), viruses, cancer cells, and toxins. The immune system can be simplistically viewed as having two “lines of defense”: innate immunity and adaptive immunity. Innate immunity represents the first line of defense to an intruding pathogen. It is an antigen-independent (non-specific) defense mechanism that is used by the host immediately or within hours of encountering an antigen. The innate immune response has no immunologic memory and, therefore, it is unable to recognize or “memorize” the same pathogen should the body be exposed to it in the future. Adaptive immunity, on the other hand, is antigen-dependent and antigen-specific and, therefore, involves a lag time between exposure to the antigen and maximal response. The hallmark of adaptive immunity is the capacity for memory which enables the host to mount a more rapid and efficient immune response upon subsequent exposure to the antigen. Innate and adaptive immunity are not mutually exclusive mechanisms of host defense, but rather are complementary, with defects in either system resulting in host vulnerability"
+    },
+    {
+        "id": 104,
+        "image": "https://i.ibb.co/2nZ5Wmr/Hematology.jpg",
+        "title": "Hematology",
+        "desc": "Sickle cell disease is inherited in as autosomal recessive pattern. Autosomal means that the gene mutation does not exist on the sex chromosome and, therefore, affects male and females equally. Recessive means that both parents must carry a gene mutation, although they may not be symptomatic for the child to suffer from sickle cell disease. pathogen should the body be exposed to it in the future. Adaptive immunity, on the other hand, is antigen-dependent and antigen-specific and, therefore, involves a lag time between exposure to the antigen and maximal response. The hallmark of adaptive immunity is the capacity for memory which enables the host to mount a more rapid and efficient immune response upon subsequent exposure to the antigen. Innate and adaptive immunity are not mutually exclusive mechanisms of host defense, but rather are complementary, with defects in either system resulting in host vulnerability"
+    },
+    {
+        "id": 105,
+        "image": "https://i.ibb.co/4KQ1XY6/Medicine-doctor-and-stethoscope-touching-icon-heart-and-diagnostics-analysis-medical-on-modern-virtu.jpg",
+        "title": "Diagnostics",
+        "desc": "The Healthcare Diagnostic Center started its journey with the vision of taking the health care services into a new height through providing the most accurate and reliable test results to all its customers and caring the patients at the top of its values. Adaptive immunity, on the other hand, is antigen-dependent and antigen-specific and, therefore, involves a lag time between exposure to the antigen and maximal response. The hallmark of adaptive immunity is the capacity for memory which enables the host to mount a more rapid and efficient immune response upon subsequent exposure to the antigen. Innate and adaptive immunity are not mutually exclusive mechanisms of host defense, but rather are complementary, with defects in either system resulting in host vulnerability"
+    },
+    {
+        "id": 106,
+        "image": "https://i.ibb.co/857nmvv/Dental.jpg",
+        "title": "Dental",
+        "desc": "Department of Dental & Maxillofacial Surgery of Evercare Hospital Dhaka offers full scope of the dental specialty, including general dentistry and specialized services in oral & maxillofacial surgery, orthodontics and restorative dentistry (endodontics and prosthodontics). Our aim is to deliver oral health care of the highest standard to our patients through experienced dental surgeons and modern technology. The department provides diagnosis, management and surgical treatment of defects and injuries related to the function and aesthetics of the teeth, gums and jaws. It also provides excellent surgical service for all sorts of maxillofacial surgery & disease."
+    }
+]

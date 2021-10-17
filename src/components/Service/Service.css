@@ -1,0 +1,5 @@
+.doc-card:hover img{
+    overflow: hidden;
+    transform: scale(0.9);
+    transition: transform 1s;
+}

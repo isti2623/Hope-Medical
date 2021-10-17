@@ -50,7 +50,7 @@ const Header = () => {
                         </div>
                     </div>
                 </div>
-                <div className='menu'>
+                <div className='menu' >
                     <Navbar collapseOnSelect sticky="top" expand="lg" bg="danger" variant="dark">
                         <Container>
                             <Navbar.Toggle aria-controls="responsive-navbar-nav" />
