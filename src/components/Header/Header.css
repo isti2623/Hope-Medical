@@ -1,0 +1,13 @@
+.menu-item{
+    text-decoration: none;
+    color: white;
+    font-size: 20px;
+    font-weight: 700;
+}
+.menu-item:hover{
+    text-decoration: underline;
+    color: black;
+}
+.menu-btn{
+    margin-left: 900px;
+}
