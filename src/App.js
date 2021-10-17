@@ -3,7 +3,6 @@ import {
   BrowserRouter as Router,
   Switch,
   Route,
-
 } from "react-router-dom";
 import Home from './components/Home/Home';
 import Doctor from './components/Doctor/Doctor';
@@ -12,6 +11,7 @@ import Contact from './components/Contact/Contact';
 import NotFound from './components/NotFound/NotFound';
 import Header from './components/Header/Header';
 import Login from './components/Login/Login';
+import Footer from './components/Footer/Footer';
 
 function App() {
   return (
@@ -41,6 +41,7 @@ function App() {
             <NotFound></NotFound>
           </Route>
         </Switch>
+        <Footer></Footer>
       </Router>
     </div>
   );
