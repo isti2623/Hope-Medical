@@ -5,8 +5,10 @@ import { faClock, faMailBulk, faMobile } from '@fortawesome/free-solid-svg-icons
 import { Container, Nav, Navbar, Stack, Button } from 'react-bootstrap';
 import { Link, NavLink } from 'react-router-dom';
 import './Header.css'
+import useAuth from '../../hooks/useAuth';
 
 const Header = () => {
+    const { user, logout } = useAuth();
     return (
         <>
             <div className='main-header bg-danger'>
@@ -98,7 +100,22 @@ const Header = () => {
                                         >
                                             Contact
                                         </NavLink>
-                                        <Link to='/login'><Button className='menu-btn' variant="light">Login</Button></Link>
+
+
+                                        <img className='details-header' src={user.photoURL} alt="" srcset="" />
+                                        <span className='text-white fw-bold'>{user.displayName}</span>
+
+                                        {
+                                            user.email ?
+                                                <Button onClick={logout} className='menu-btn' variant="light">Logout</Button>
+                                                :
+                                                <Link to='/login'><Button className='menu-btn' variant="light">Login</Button></Link>
+                                        }
+
+
+
+
+
                                     </Stack>
                                 </Nav>
                             </Navbar.Collapse>

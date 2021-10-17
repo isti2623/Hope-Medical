@@ -16,3 +16,7 @@
     color: white;
     border: none;
 }
+.details-header{
+    border-radius: 50%;
+    width: 50px;
+}
