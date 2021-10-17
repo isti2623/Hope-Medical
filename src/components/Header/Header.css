@@ -9,5 +9,10 @@
     color: black;
 }
 .menu-btn{
-    margin-left: 900px;
+  font-weight: 700;
+}
+.menu-btn:hover{
+    background-color: black;
+    color: white;
+    border: none;
 }

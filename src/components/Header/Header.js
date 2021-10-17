@@ -57,6 +57,7 @@ const Header = () => {
                             <Navbar.Collapse id="responsive-navbar-nav">
                                 <Nav className="me-auto">
                                     <Stack direction="horizontal" gap={3}>
+
                                         <NavLink
                                             className='menu-item'
                                             to="/home"
