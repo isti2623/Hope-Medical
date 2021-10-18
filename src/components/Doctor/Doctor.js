@@ -28,7 +28,7 @@ const Doctor = () => {
                     </Row>
                 </div>
             </div>
-            );
+
 
 
         </div>

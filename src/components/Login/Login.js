@@ -30,7 +30,7 @@ const Login = () => {
     };
     return (
         <div className="div d-flex justify-content-center align-items-center">
-            <div className="row ">
+            <div className="row container">
                 <div className="col-md-6">
                     <div>
                         <div className="form-input mt-5">

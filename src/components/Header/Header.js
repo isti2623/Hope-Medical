@@ -106,11 +106,12 @@ const Header = () => {
                                             <img className='details-header' src={user.photoURL} alt="" srcset="" />
                                             <span className='text-white fw-bold'>{user.displayName}</span>
 
+
                                             {
                                                 user.email ?
-                                                    <Button onClick={logout} className='menu-btn' variant="light">Logout</Button>
+                                                    <Button onClick={logout} className='menu-btn' variant="light"> Logout</Button>
                                                     :
-                                                    <Link to='/login'><Button className='menu-btn' variant="light">Login</Button></Link>
+                                                    <Link to='/login'><Button className='menu-btn' variant="light"> Login</Button></Link>
                                             }
 
                                         </div>
