@@ -58,7 +58,7 @@ const Header = () => {
                             <Navbar.Toggle aria-controls="responsive-navbar-nav" />
                             <Navbar.Collapse id="responsive-navbar-nav">
                                 <Nav className="me-auto">
-                                    <Stack direction="horizontal" gap={3}>
+                                    <Stack direction="horizontal" gap={2}>
 
                                         <NavLink
                                             className='menu-item'
@@ -71,7 +71,7 @@ const Header = () => {
                                             Home
                                         </NavLink>
                                         <NavLink
-                                            className='menu-item'
+                                            className='menu-item ms-1'
                                             to="/doctor"
                                             activeStyle={{
                                                 fontWeight: "bold",
@@ -81,7 +81,7 @@ const Header = () => {
                                             Doctor
                                         </NavLink>
                                         <NavLink
-                                            className='menu-item'
+                                            className='menu-item ms-1'
                                             to="/about"
                                             activeStyle={{
                                                 fontWeight: "bold",
@@ -91,7 +91,7 @@ const Header = () => {
                                             About
                                         </NavLink>
                                         <NavLink
-                                            className='menu-item'
+                                            className='menu-item ms-1'
                                             to="/contact"
                                             activeStyle={{
                                                 fontWeight: "bold",
@@ -103,8 +103,8 @@ const Header = () => {
 
                                         <div className='container'>
 
-                                            <img className='details-header' src={user.photoURL} alt="" srcset="" />
-                                            <span className='text-white fw-bold '>{user.displayName}</span>
+                                            <img className='details-header ms-2' src={user.photoURL} alt="" srcset="" />
+                                            <span className='text-white fw-bold ms-2'>{user.displayName}</span>
 
 
                                             {
