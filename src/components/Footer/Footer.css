@@ -1,7 +1,8 @@
 .footer-part{
     background-color: #191919;
+    overflow-x: hidden;
 }
 .foot-image{
-    margin-bottom: 200px;
-    padding: 5px;
+    margin-bottom: 0px;
+   
 }

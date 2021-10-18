@@ -14,37 +14,37 @@ const Header = () => {
             <div className='main-header bg-danger'>
                 <div className="container">
                     <div className="row p-4">
-                        <div className="col-md-3 col-sm-12">
+                        <div className="col-lg-3 col-md-6">
                             <img src={logo} alt="" srcset="" />
                         </div>
-                        <div className="col-md-3 col-sm-12">
+                        <div className="col-lg-3 col-md-6">
                             <div className="row">
-                                <div className="col-md-4 col-sm-12">
+                                <div className="col-lg-4 col-md-12">
                                     <FontAwesomeIcon className='text-white fs-3 mt-2' icon={faClock} />
                                 </div>
-                                <div className="col-md-8">
+                                <div className="col-lg-8  col-md-12">
                                     <span className='fw-bold'>WORKING HOURS</span>
                                     <h6 className='text-light'>MON-FRI:9.00-5.00</h6>
                                 </div>
                             </div>
                         </div>
-                        <div className="col-md-3 col-sm-12">
+                        <div className="col-lg-3 col-md-6">
                             <div className="row">
-                                <div className="col-md-4  col-sm-12">
+                                <div className="col-lg-4  col-md-12">
                                     <FontAwesomeIcon className='text-white fs-3 mt-2' icon={faMobile} />
                                 </div>
-                                <div className="col-md-8  col-sm-12">
+                                <div className="col-lg-8  col-md-12">
                                     <span className='fw-bold'>HOTLINE 24/7</span>
                                     <h6 className='text-light'>+8801322308092</h6>
                                 </div>
                             </div>
                         </div>
-                        <div className="col-md-3  col-sm-12">
+                        <div className="col-lg-3 col-md-6">
                             <div className="row">
-                                <div className="col-md-4  col-sm-12">
+                                <div className="col-lg-4  col-md-12">
                                     <FontAwesomeIcon className='text-white fs-3 mt-2' icon={faMailBulk} />
                                 </div>
-                                <div className="col-md-8  col-sm-12">
+                                <div className="col-lg-8  col-md-12">
                                     <span className='fw-bold'>EMAIL US</span>
                                     <h6 className='text-light'>istiaqueahmed2019.bd@gmail.com</h6>
                                 </div>
@@ -101,17 +101,19 @@ const Header = () => {
                                             Contact
                                         </NavLink>
 
+                                        <div className='container'>
 
-                                        <img className='details-header' src={user.photoURL} alt="" srcset="" />
-                                        <span className='text-white fw-bold'>{user.displayName}</span>
+                                            <img className='details-header' src={user.photoURL} alt="" srcset="" />
+                                            <span className='text-white fw-bold'>{user.displayName}</span>
 
-                                        {
-                                            user.email ?
-                                                <Button onClick={logout} className='menu-btn' variant="light">Logout</Button>
-                                                :
-                                                <Link to='/login'><Button className='menu-btn' variant="light">Login</Button></Link>
-                                        }
+                                            {
+                                                user.email ?
+                                                    <Button onClick={logout} className='menu-btn' variant="light">Logout</Button>
+                                                    :
+                                                    <Link to='/login'><Button className='menu-btn' variant="light">Login</Button></Link>
+                                            }
 
+                                        </div>
 
 
 

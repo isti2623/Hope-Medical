@@ -7,11 +7,11 @@ const Footer = () => {
         <div>
             <div className='footer-part mt-5'>
                 <div className="row">
-                    <div className="col-md-6">
+                    <div className="col-lg-6 col-md-12">
                         <img className='w-25 ms-5 mt-3 foot-image' src={logo} alt="" />
                         <p className='container text-white mb-5 ms-5'>copyright 2022 Hope Medical</p>
                     </div>
-                    <div className="col-md-3">
+                    <div className="col-lg-3 col-md-12">
                         <ul className='text-decoration-none text-white my-5'>
                             <br />
                             <br />
@@ -22,7 +22,7 @@ const Footer = () => {
                             <li>Add your Hospital</li>
                         </ul>
                     </div>
-                    <div className="col-md-3">
+                    <div className="col-lg-3 col-md-12">
                         <ul className='text-decoration-none text-white my-5'>
                             <br />
                             <br />
