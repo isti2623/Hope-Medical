@@ -1,4 +1,5 @@
 import React, { useState } from 'react';
+import { useHistory, useLocation } from 'react-router';
 import useFirebase from '../../hooks/useFirebase';
 
 const Login = () => {
@@ -11,7 +12,16 @@ const Login = () => {
 
     const [email, setEmail] = useState("");
     const [password, setPassword] = useState("");
+    const location = useLocation();
+    const history = useHistory();
+    const redirect_uri = location.state?.from || '/home'
 
+    const handleGoogleLogin = () => {
+        signInUsingGoogle()
+            .then(result => {
+                history.push(redirect_uri)
+            })
+    }
     const hanldeEmail = (e) => {
         setEmail(e.target.value);
     };
@@ -63,7 +73,7 @@ const Login = () => {
                         <span className='mt-5'>..........................OR.........................</span>
                         <div className="login-btn mt-4">
                             <button
-                                onClick={signInUsingGoogle}
+                                onClick={handleGoogleLogin}
                                 className="btn btn-warning m-2"
                             >
                                 google sign in
