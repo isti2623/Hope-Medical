@@ -22,17 +22,7 @@ const Footer = () => {
                             <li>Add your Hospital</li>
                         </ul>
                     </div>
-                    <div className="col-lg-3 col-md-12">
-                        <ul className='text-decoration-none text-white my-5'>
-                            <br />
-                            <br />
-                            <br />
-                            <li>Get helps</li>
-                            <li>Read FAQS</li>
-                            <li>View All cities</li>
-                            <li>Hope near me</li>
-                        </ul>
-                    </div>
+
                 </div>
             </div>
         </div>
