@@ -4,7 +4,7 @@ const ChooseMedical = () => {
     return (
         <div>
             <div className="container">
-                <div className="row my-5">
+                <div className="row my-5 container">
                     <div className="col-lg-4 col-md-12 text-center card bg-danger text-white p-1 m-1">
                         <h5>DIAGNOSE</h5>
                         <p>Examination & Diagnosis</p>
