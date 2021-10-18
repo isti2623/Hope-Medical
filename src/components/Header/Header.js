@@ -15,7 +15,7 @@ const Header = () => {
                 <div className="container">
                     <div className="row p-4">
                         <div className="col-lg-3 col-md-6">
-                            <img src={logo} alt="" srcset="" />
+                            <img src={logo} alt="" />
                         </div>
                         <div className="col-lg-3 col-md-6">
                             <div className="row">
@@ -103,7 +103,7 @@ const Header = () => {
 
                                         <div className='container'>
 
-                                            <img className='details-header ms-2' src={user.photoURL} alt="" srcset="" />
+                                            <img className='details-header ms-2' src={user.photoURL} alt="" />
                                             <span className='text-white fw-bold ms-2'>{user.displayName}</span>
 
 

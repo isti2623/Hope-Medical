@@ -16,7 +16,7 @@ const ServiceDetails = () => {
             <div className="row container">
                 <div className="col-md-6">
 
-                    <img className='w-100 mt-5' src={findServ?.image} alt="" srcset="" />
+                    <img className='w-100 mt-5' src={findServ?.image} alt="" />
                 </div>
                 <div className="col-md-6">
                     <h1 className='mt-5 fw-bold text-danger'>{findServ?.title}</h1>

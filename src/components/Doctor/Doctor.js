@@ -20,7 +20,7 @@ const Doctor = () => {
 
                         {
                             doctor.map(docs => <div className="col-lg-6">
-                                <img height='450px' className='w-100' src={docs.image} alt="" srcset="" />
+                                <img height='450px' className='w-100' src={docs.image} alt="" />
                                 <h2 className='text-center text-danger my-3 fw-bold'>{docs.title}</h2>
                             </div>)
                         }

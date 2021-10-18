@@ -7,7 +7,7 @@ const Service = (props) => {
     return (
         <>
             <div className="col-lg-4  doc-card mb-3">
-                <img height='250px' className='w-100 mt-5' src={image} alt="" srcset="" />
+                <img height='250px' className='w-100 mt-5' src={image} alt="" />
                 <div className=''>
                     <h5>{title}</h5>
                     <p>{desc.slice(0, 150)}</p>
