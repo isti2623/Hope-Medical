@@ -37,6 +37,7 @@ const Login = () => {
 
     const handleLogin = () => {
         handleUserLogin(email, password);
+        history.push(redirect_uri)
     };
     return (
         <div className="div d-flex justify-content-center align-items-center">
