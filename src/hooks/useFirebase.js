@@ -11,48 +11,62 @@ initializeAuthentication()
 const useFirebase = () => {
     const [user, setUser] = useState({});
     const [error, setError] = useState('');
+    const [isLoading, setIsLoading] = useState(true);
 
     const auth = getAuth()
     const googleProvider = new GoogleAuthProvider();
 
     const signInUsingGoogle = () => {
-        return signInWithPopup(auth, googleProvider);
+        setIsLoading(true);
+        return signInWithPopup(auth, googleProvider)
+            .finally(() => setIsLoading(false));
 
     }
 
     const logout = () => {
+        setIsLoading(true);
         signOut(auth)
             .then(() => {
                 setUser({});
             })
+            .finally(() => setIsLoading(false));
     }
 
     useEffect(() => {
-        onAuthStateChanged(auth, user => {
+        const unsubscribed = onAuthStateChanged(auth, user => {
             if (user) {
                 setUser(user);
             }
-        })
-    }, []);
+            else {
+                setUser({})
+            }
+            setIsLoading(false);
+        });
+        return () => unsubscribed;
+    }, [])
 
     const handleUserRegister = (email, password) => {
+        setIsLoading(true);
         createUserWithEmailAndPassword(auth, email, password)
             .then((result) => {
                 console.log(result.user);
             })
             .catch((error) => {
                 const errorMessage = error.message;
-            });
+            })
+            .finally(() => setIsLoading(false));
     };
 
     const handleUserLogin = (email, password) => {
+        setIsLoading(true);
         signInWithEmailAndPassword(auth, email, password)
             .then((result) => {
                 console.log(result.user);
             })
             .catch((error) => {
                 const errorMessage = error.message;
-            });
+            })
+            .finally(() => setIsLoading(false));
     };
 
     return {
@@ -61,7 +75,8 @@ const useFirebase = () => {
         signInUsingGoogle,
         logout,
         handleUserRegister,
-        handleUserLogin
+        handleUserLogin,
+        isLoading
     }
 }
 
