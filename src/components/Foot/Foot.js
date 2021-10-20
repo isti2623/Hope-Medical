@@ -5,9 +5,11 @@ const Foot = () => {
     return (
 
         <div>
+
+
             <Container>
                 <Row>
-
+                    <h1 className='fs-1 fw-bold  mt-5 text-danger'>Keep <span className='text-dark'>In Touch</span> </h1>
                     <Col className="bg-danger my-5 p-5 text-center" md={6}>
                         <h5 className="text-white">Hope Medical</h5>
                         <h5 className="text-white">H # B-91, R # E-2, Eastern Housing Ltd. Pallabi, Mirpur, Dhaka-1216</h5>
